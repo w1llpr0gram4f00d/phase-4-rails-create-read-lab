@@ -18,7 +18,7 @@ function PlantPage() {
 
   function handleAddPlant(newPlant) {
     const updatedPlantsArray = [...plants, newPlant];
-    setPlants(updatedPlantsArray);
+    setPlants(updatedPlantsArray)
   }
 
   const displayedPlants = plants.filter((plant) => {
